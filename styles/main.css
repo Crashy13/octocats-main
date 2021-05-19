@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.octodex {
+  background: #fff;
+  margin: 80px 0;
+}
+
+li.octocat {
+  display: inline-block;
+  position: relative;
+  margin: 0;
+}
+
+.octocat img {
+  width: 450px;
+  border: 1px solid #CACACA;
+  margin: 20px 5px;
+  border-radius: 3px
+}
+
+ul.authors > li img{
+  display: inline;
+  position: relative;
+  margin: 0;
+  width: 30px;
+  height: 30px;
+  border-style: none;
+  float: right;
+  border-radius: 3px
+}
+
+.image-number {
+  color: #CACACA;
+  font-weight: bolder;
+}
+
+.image-caption {
+  position: relative;
+  display: inline;
+}
